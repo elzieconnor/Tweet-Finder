@@ -1,0 +1,25 @@
+extends index
+
+block title
+	title Final Project - Tweet Information
+
+block content
+	body
+		#header
+			.header-content-container
+				h1 Tweet Details
+		#content-container
+			.tweet-container
+				img.bird-dude-container(src='/images/logo.png')
+				.text-container
+					#demo #{stweet_text}
+				.button-container
+					button.login-button(onclick='increaseFont()') Increase Font Size
+					button.login-button(type='button' onclick='rotateString()') Rotate Tweet
+					button.login-button(type='button' onclick='changeColor()') Change Font Color
+			.tweet-container
+				img.bird-dude-container(src="https://abs.twimg.com/sticky/default_profile_images/default_profile_normal.png")
+				.text-container
+					h3 Tweeted by #{stweet_name}
+					h3 Tweeted on #{stweet_created}
+	script(src="/js/fp_script.js")

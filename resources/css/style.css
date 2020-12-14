@@ -1,0 +1,181 @@
+body {
+	margin: 0;
+	padding: 0;
+	background: #fff;
+	font-family: bebasKai;
+}
+
+@font-face {
+	font-family: bebasKai;
+	src: url(BebasKai-Regular.otf);
+}
+
+#login-container {
+	position: fixed;
+	height: 100%;
+	width: 100%;
+	background: #f0f0f0;
+	background-position: center;
+	background-size: contain;
+	background-repeat: no-repeat;
+}
+
+a {
+	text-decoration: none;
+	color: black;
+        -webkit-transition: all 0.5s ease-in-out;
+}
+
+a:hover {
+	color: #888;
+}
+
+h1 {
+	font-size: 30px;
+}
+
+h2 {
+	font-size: 12px;
+	border-top: 1px white solid;
+	border-bottom: 1px white solid;
+	padding: 10px 0;
+	display: inline;
+}
+
+h2 {
+	font-size: 14px;
+	padding: 10px 0;
+	display: inline;
+}
+
+#bird-wrapper {
+	position: fixed;
+	top: 0;
+	bottom: 200px;
+	left: 0;
+	right: 0;
+	width: 250px;
+	margin: auto auto;
+}
+
+#bird-wrapper img {
+	max-width: 300px;
+}
+
+#info-wrapper {
+	position: fixed;
+	top: 50px;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	width: 300px;
+	height: 40px;
+	margin: auto auto;
+	text-align: center;
+}
+
+.login-button {
+	width: 250px;
+	text-transform: uppercase;
+	background: transparent;
+	border: 2px #00b7c7 solid;
+	padding: 6px 40px;
+	font-family: bebasKai;
+	color: #00b7c7;
+	font-size: 12px;
+	margin: 0 10px;
+        -webkit-transition: all 0.5s ease-in-out;
+}
+
+.login-button:hover {
+	border: 2px #35ecfd solid;
+	color: #35ecfd;
+}
+
+.login-button a {
+	color: #00b7c7;
+}
+
+#navigation {
+	position: fixed;
+	bottom: 0px;
+	width: 100%;
+	background: #000;
+	text-align: right;
+}
+
+#link-container {
+	height: auto;
+	width:auto;
+	padding:20px 10px;
+}
+
+.nav-link {
+	width: 250px;
+	text-transform: uppercase;
+	background: transparent;
+	border: 2px #f0f0f0 solid;
+	padding: 6px 40px;
+	font-family: bebasKai;
+	color: #f0f0f0;
+	font-size: 12px;
+	display: inline;
+	margin: 0 10px;
+        -webkit-transition: all 0.5s ease-in-out;
+}
+
+.nav-link:hover {
+	border: 2px #35ecfd solid;
+	color: #35ecfd;
+}	
+
+#header {
+	width: 100%;
+	background: #000;
+	padding: 10px 0;
+}
+
+.header-content-container {
+	width: 700px;
+	background: transparent;
+	text-align: center;
+	margin: 0 auto;
+	color:#fff;
+}
+
+#content-container {
+	background: yellow;
+	width: auto;
+	height: auto;
+	text-align: center;
+}
+
+.tweet-container {
+	position: relative;
+	padding: 80px 0;
+	width: 100%;
+	background: #f7f8fa;
+	display: inline-block;
+}
+
+.tweet-container:nth-child(odd) {
+    background: #fff;
+}
+
+.text-container {
+	width: 300px;
+	height: auto;
+	background: transparent;
+	text-align: center;
+	margin: 15px auto;
+}
+
+.bird-dude-container {
+	width: 50px;
+	margin: 15px;
+}
+
+.button-container {
+	margin: 0 auto;
+	background: transparent;
+}
